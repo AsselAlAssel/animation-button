@@ -1,3 +1,5 @@
 # animation-button
 <br>
-<img src="https://user-images.githubusercontent.com/77459566/157083348-a6225de0-7c69-47e3-9df0-0e367484fdaf.gif" alt="animation button" width="100%"/>
+<div style="text-align:center">
+<img src="https://user-images.githubusercontent.com/77459566/157084068-3aaec97d-3139-4b09-8643-051c2da3ea7b.gif" alt="animation button""/>
+                                                                                                                                        </div>
