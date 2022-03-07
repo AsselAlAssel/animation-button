@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+div.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border: 1px solid purple;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.container span {
+    display: block;
+    height: 26px;
+    width: 26px;
+    background-color: #292929;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    /* left: 68px */
+}
+
+.right {
+    animation: toRight 1s ease-in-out forwards;
+    -webkit-animation: toRight 1s ease-in-out forwards;
+}
+
+.left {
+    animation: toLeft 1s ease-in-out forwards;
+    -webkit-animation: toLeft 1s ease-in-out forwards;
+}
+
+@keyframes toRight {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 68px;
+    }
+}
+
+@keyframes toLeft {
+    from {
+        left: 68px;
+    }
+    to {
+        left: 0px;
+    }
+}

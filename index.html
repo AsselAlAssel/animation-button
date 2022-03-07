@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation button</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="container ">
+            <span></span>
+        </div>
+    </div>
+
+    <script>
+        let i = 0;
+        document.querySelector(".container").addEventListener("click", () => {
+            let span = document.querySelector("span");
+            i++;
+            if (i === 1) {
+                span.classList.remove("left");
+                span.classList.add("right");
+            } else {
+                span.classList.remove("right");
+                span.classList.add("left");
+            }
+            i %= 2;
+        });
+    </script>
+
+</body>
+
+</html>
